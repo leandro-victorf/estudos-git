@@ -1,16 +1,16 @@
-requeri_relative 'ui'
+require_relative 'ui'
 
 def start_map number
-    txt = "map#{number}.txt"
-    read = File.read txt
-    map = read.split"\n"
+    arq = "map#{number}.txt"
+    mm = File.read arq
+    map = mm.split("\n")
 end
 
 def play name
     map = start_map 1
-
-    while true
-        print map
+ 
+    while true 
+        picture map
         direction = move
     end
 end

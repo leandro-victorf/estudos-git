@@ -1,3 +1,3 @@
-requeri_relative 'comecome'
+require_relative 'comecome'
 
 start

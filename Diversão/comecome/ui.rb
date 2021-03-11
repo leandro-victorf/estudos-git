@@ -4,11 +4,9 @@ def start
     name = gets.strip
     puts "Vamos à comilanci!!"
 end
-
-def print
+def picture map
     puts map
 end
-
 def move
     puts "Para onde vamos agora?"
     move = gets.strip
